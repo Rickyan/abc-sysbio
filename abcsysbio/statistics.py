@@ -76,7 +76,7 @@ def get_pdf_lognormal(m, sigma, x):
 
 
 # compute the pdf of a multinormal distribution
-def get_pdf_multinormal(x, covariances, m):
+def get_pdf_multinormal(m, covariances, x):
     """
     Evaluate P(x) for multivariate normal distribution, x ~ N(means, covariances)
 
